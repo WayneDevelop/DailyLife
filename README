@@ -1,1 +1,7 @@
-
+系统域名为：www.alianyi.cn
+系统访问路径为 http://www.alianyi.cn/dailylife
+目前只有一个前台公共工程 commonweb 该工程负责前台页面框架搭建，用户登录注册。菜单按权限显示等主要功能
+系统目录结构 cn.alianyi.adilylife
+每个子项目目录结构 cn.alianyi.adilylife.commonweb
+具体每个单独项目里面文件夹结构：controller util service filter 等其他结构同commonweb结构
+访问数据库为统一的commondao工程（springboot + data + jpa）
