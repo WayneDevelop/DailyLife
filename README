@@ -5,3 +5,5 @@
 每个子项目目录结构 cn.alianyi.adilylife.commonweb
 具体每个单独项目里面文件夹结构：controller util service filter 等其他结构同commonweb结构
 访问数据库为统一的commondao工程（springboot + data + jpa）
+yum list |grep 
+ yum -y install libpng12.x86_64
