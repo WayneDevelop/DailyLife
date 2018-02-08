@@ -1,0 +1,5 @@
+1、本工程采用springmvc框架前台用的是layui框架
+2、主要是搭建系统所有公共页面框架负责登录注册校验
+3、lombok 包说明地址 https://www.jianshu.com/p/365ea41b3573
+4、所有对数据库的操作都依赖commondao工程
+5、springmvc工程搭建推荐地址  http://blog.csdn.net/Mr_Liyuhan/article/details/78205647
