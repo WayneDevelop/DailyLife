@@ -17,7 +17,7 @@ import java.util.Date;
 public class UserService {
 
     @Autowired
-    private UserServiceImpl userService;
+    private UserServiceImpl userServiceImplw;
 
     public void saveUser(){
         User user = new User();
@@ -28,6 +28,6 @@ public class UserService {
         user.setPassword("123456");
         user.setRegisterTime(new Date());
         user.setRegion("0");
-        userService.saveUser(user);
+        userServiceImplw.saveUser(user);
     }
 }
