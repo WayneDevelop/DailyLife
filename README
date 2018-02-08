@@ -9,3 +9,4 @@ yum list |grep
  yum -y install libpng12.x86_64
 http://blog.csdn.net/lk10207160511/article/details/50526404
 http://blog.csdn.net/zknxx/article/details/52601554
+https://www.cnblogs.com/sxjun/p/6963844.html
