@@ -6,6 +6,7 @@ import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class IndexController {
@@ -18,4 +19,9 @@ public class IndexController {
         userService.saveUser();
         return "init";
     }
+   /* @RequestMapping("/init")
+    public ModelAndView init() {
+        ModelAndView mv = new ModelAndView("init");
+        return mv;
+    }*/
 }

@@ -1,8 +1,9 @@
 package cn.alianyi.dailylife.commonweb.service;
 
-import cn.alianyi.dailylife.commondao.dao.User;
-import cn.alianyi.dailylife.commondao.dao.UserRepos;
-import cn.alianyi.dailylife.commondao.service.UserServiceImpl;
+
+import cn.alianyi.dailylife.commoninterface.domain.User;
+import cn.alianyi.dailylife.commoninterface.service.IUserService;
+import com.alibaba.dubbo.config.annotation.Reference;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
@@ -16,8 +17,8 @@ import java.util.Date;
 @Service
 public class UserService {
 
-    @Autowired
-    private UserServiceImpl userServiceImplw;
+    @Reference
+    private IUserService userDubbo;
 
     public void saveUser(){
         User user = new User();
@@ -28,6 +29,6 @@ public class UserService {
         user.setPassword("123456");
         user.setRegisterTime(new Date());
         user.setRegion("0");
-        userServiceImplw.saveUser(user);
+        userDubbo.saveUser(user);
     }
 }

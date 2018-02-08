@@ -19,3 +19,16 @@ spring:
   jackson:
     serialization:
       indent_output: true
+
+## Dubbo 服务提供者配置
+#spring:
+#  dubbo:
+#    application:
+#      name: provider
+#    registry:
+#      address:
+#        zookeeper: //118.126.97.44:2181
+#    protocol:
+#      name: dubbo
+#      port: 2888
+#    scan: cn.alianyi.dailylife.commondao.dubbo
