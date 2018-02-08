@@ -1,0 +1,4 @@
+1、所有对数据库的操作都依赖commondao工程
+2、Linux系统装jdk推荐地址 http://www.jb51.net/article/126921.htm
+3、Linux系统装mysql推荐地址  http://blog.csdn.net/csdn2193714269/article/details/72897815
+4、springboot + springdata + JPA 项目搭建推荐地址  http://blog.csdn.net/wazz753/article/details/72472411
