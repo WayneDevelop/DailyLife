@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 
-public interface UserRepos extends JpaRepository<User, String> {
+public interface UserRepos extends JpaRepository<User, Integer> {
 
     /**
      * 通过用户名相等查询
