@@ -19,8 +19,7 @@ public class User implements Serializable {
 
     /** 主键. */
     @Id
-    @GeneratedValue(generator="system-uuid")
-    @GenericGenerator(name="system-uuid",strategy="uuid")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     /** 用户名. */
