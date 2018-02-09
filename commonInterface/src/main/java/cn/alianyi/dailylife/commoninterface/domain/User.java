@@ -1,8 +1,13 @@
 package cn.alianyi.dailylife.commoninterface.domain;
 
 import java.util.Date;
+import java.io.Serializable;
 
-public class User {
+public class User implements Serializable{
+    
+     /** serialVersionUID. */
+    private static final long serialVersionUID = 1312412412L;
+    
     private Long id;
 
     /** 用户名. */
@@ -154,5 +159,7 @@ public class User {
 
     public void setReserved3(String reserved3) {
         this.reserved3 = reserved3;
+    }
+    public User() {
     }
 }
