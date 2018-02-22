@@ -17,6 +17,7 @@
     <modules>
         <module>commonweb</module>
         <module>commonInterface</module>
+        <module>commondao</module>
     </modules>
 
 
