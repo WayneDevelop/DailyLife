@@ -6,7 +6,7 @@ $(function(){
 		if(login == 'true'){
 			$("#username").html($.cookie('userName'));
 		}else{
-			location.href = '/usr/login';
+			location.href = '/user/login';
 		};
 	}
 	
