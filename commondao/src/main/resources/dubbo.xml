@@ -27,14 +27,13 @@
     <dubbo:application name="provider" />
     <!-- 使用zookeeper广播注册中心暴露发现服务地址 -->
     <dubbo:registry  protocol="zookeeper"  address="118.126.97.44:2181" />
-    <!--<dubbo:registry  protocol="zookeeper"  address="127.0.0.1:2181" />-->
     <!-- 和上面的一样 -->
     <!-- <dubbo:registry  address="zookeeper://192.168.0.101:2181" />    -->
     <!--本地伪集群配置 -->
     <!-- <dubbo:registry  protocol="zookeeper"  address="192.168.0.27:2181,192.168.0.27:2182,192.168.0.27:2183" /> -->
     <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
     <!--<dubbo:reference id="userDubbo" interface="cn.alianyi.dailylife.commoninterface.service.IUserService" />-->
-    <dubbo:protocol name="dubbo" port="2888" />
+    <dubbo:protocol name="dubbo" port="20882" />
     <!-- 声明需要暴露的服务接口 -->
     <!--<dubbo:service interface="cn.alianyi.dailylife.commoninterface.service.IUserService" ref="userDubbo" />-->
 </beans>

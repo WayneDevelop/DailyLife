@@ -16,7 +16,7 @@ public class IndexController {
 
     @RequestMapping("/init")
     public String init() {
-        userService.saveUser();
+       // userService.saveUser();
         return "init";
     }
    /* @RequestMapping("/init")
