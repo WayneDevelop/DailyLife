@@ -33,4 +33,28 @@ public class HTML5Controller {
         return mv;
     }
 
+    @RequestMapping("/conditioning/contact")
+    public ModelAndView conditioningContact() {
+        ModelAndView mv = new ModelAndView("html5/conditioning/contact");
+        return mv;
+    }
+
+    @RequestMapping("/conditioning/index")
+    public ModelAndView conditioningIndex() {
+        ModelAndView mv = new ModelAndView("html5/conditioning/index");
+        return mv;
+    }
+
+    @RequestMapping("/conditioning/services")
+    public ModelAndView conditioningServices() {
+        ModelAndView mv = new ModelAndView("html5/conditioning/services");
+        return mv;
+    }
+
+    @RequestMapping("/conditioning/team")
+    public ModelAndView conditioningTeam() {
+        ModelAndView mv = new ModelAndView("html5/conditioning/team");
+        return mv;
+    }
+
 }

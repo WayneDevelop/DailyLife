@@ -21,6 +21,7 @@ ul { padding: 0; }
 header { position: absolute; text-align: center; left: 0; right: 0; margin-left: auto; margin-right: auto; top: 350px; }
 h1 { font-size: 30px; font-weight: 600; color: white; text-transform: uppercase; }
 h2  { font-size: 14px; font-weight: normal; color: white; text-align: center; margin: 0; }
+h3  { font-size: 14px; font-weight: normal; color: white; text-align: center; margin: -16px; }
 
 .container { position:relative; width: 894px; height: 853px; padding-left: 0; margin: 0 auto; }
 
@@ -117,6 +118,8 @@ h2  { font-size: 14px; font-weight: normal; color: white; text-align: center; ma
 #logo { position: absolute; left: 347px; top: 10px; }
 #logo h2 { font-size: 22px; font-weight: 600; line-height: 144px; }
 
+
+
 /******************************* end General Styles **********************************/
 
 /******************************* Gallery Styles **************************************/
@@ -196,6 +199,7 @@ h2  { font-size: 14px; font-weight: normal; color: white; text-align: center; ma
 
 #team { position: absolute; left: 197px; top: 90px; }
 #team-content .pagination { left: 415.5px; }
+#team h2 { font-size: 22px; font-weight: 600; line-height: 144px; }
 
 /******************************* end Team Styles *************************************/
 
@@ -215,6 +219,8 @@ h2  { font-size: 14px; font-weight: normal; color: white; text-align: center; ma
 .services .hexagon-in2.active { background-color: #a2c044; }
 .services-item { background-color: white; -webkit-box-shadow: inset 0 0 1px #666; -moz-box-shadow: inset 0 0 1px #666; margin-bottom: 30px; overflow: hidden; }
 #services { position: absolute; left: 497px; top: 90px; }
+#services-content .pagination { left: 415.5px; }
+#services h2 { font-size: 22px; font-weight: 600; line-height: 144px; }
 
 /******************************* end Services Styles ********************************/
 
@@ -271,5 +277,6 @@ button:focus { border: none; outline:none; }
 
 #templatemo_map { width: 100%; height: 214px; margin-left: 70px; }
 #contact { position: absolute; left: 347px; top: 170px; }
+#contact h2 { font-size: 22px; font-weight: 600; line-height: 144px; }
 
 /******************************* end Contact Styles *********************************/
